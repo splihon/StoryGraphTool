@@ -1,58 +1,58 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Agent 13, Run!",
+    "Credits": "Created by Segolen Plihon (splihon@ucsc.edu).",
+    "InitialLocation": "Red Building",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "Red Building": {
+            "Body": "This is the Red Building, the attackers are close. You must keep running!",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
+                    "Text": "Turn Right",
+                    "Target": "Blue Building"
                 }
             ]
         },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
+        "Blue Building": {
+            "Body": "This is the Blue Building, the attackers are still on your tail. Keep Moving!",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Kresge"
+                    "Text": "Turn Left",
+                    "Target": "Red Building"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Text": "Turn Right",
+                    "Target": "Green Building"
                 }
             ]
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+        "Green Building": {
+            "Body": "This is the Green Building, a few attackers caught up! But you fought your way out.",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Porter"
+                    "Text": "Turn Left",
+                    "Target": "Capture"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "Turn Right",
+                    "Target": "Freedom"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "Capture": {
+            "Body": "You choose quickly, and sadly choose wrong. You are now surronded.",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Rachel Carson"
+                    "Text": "Turn Left",
+                    "Target": "Blue Building"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "Turn Right",
+                    "Target": "Freedom"
                 }
             ]
         },
-        "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+        "Freedom": {
+            "Body": "Good Job, Agent 13! You have escaped to survive another day."
         }
     }
 }
